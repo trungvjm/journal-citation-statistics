@@ -1,0 +1,20 @@
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+
+# Never commit raw Scopus CSVs, OJS catalogs, citation/quartile audits, admin generators, or secrets
+*.csv
+*ojs_catalog*.json
+*audit*.json
+admin-generator.html
+.env
+.env.*
+
+.access-keys.json
+LOCAL-LINKS.md
+src/
+tools/
+# Never publish or stage VJMech in this public repository
+docs/vjmech/
+09-OJS-Citation Statistics-VJMech/
